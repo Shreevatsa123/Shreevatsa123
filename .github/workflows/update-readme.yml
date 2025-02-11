@@ -5,12 +5,17 @@ on:
     - cron: "0 * * * *"  # Runs every hour
   workflow_dispatch:  # Allows manual execution
 
+permissions:  
+  contents: write  # 👈 This allows the bot to commit changes
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # 👈 Prevents GitHub Actions from using default credentials
 
       - name: Configure Git Credentials
         run: |
@@ -24,11 +29,13 @@ jobs:
           curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=Shreevatsa123&count_private=true&show_icons=true&theme=dark&include_all_commits=true"
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add stats.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Updated GitHub Stats"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Shreevatsa123/Shreevatsa123.git HEAD:main
           fi
