@@ -33,6 +33,9 @@ I'm Shreevatsa Agnihotri – a Data Engineer & Data Scientist in progress!
 ## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shreevatsa123&count_private=true&show_icons=true&theme=dark&include_all_commits=true&cache_seconds=5&custom_title=My%20GitHub%20Stats&token=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)
 
+![Private Contributions](https://img.shields.io/github/commit-activity/private/Shreevatsa123?style=for-the-badge)
+
+
 ## 🔗 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shreevatsa-agnihotri-787aab1b6/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/Shreevatsa123)
