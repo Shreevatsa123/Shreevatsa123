@@ -1,4 +1,4 @@
-name: Update GitHub Stats
+name: Update GitHub Readme Stats
 
 on:
   schedule:
@@ -12,13 +12,23 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch GitHub Stats
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PATH }}
+      - name: Configure Git Credentials
         run: |
-          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=Shreevatsa123&count_private=true&show_icons=true&theme=dark&include_all_commits=true&token=${{ secrets.GH_PAT }}"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch GitHub Stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=Shreevatsa123&count_private=true&show_icons=true&theme=dark&include_all_commits=true"
+
+      - name: Commit and Push Changes
+        run: |
           git add stats.svg
-          git commit -m "Updated GitHub stats"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Updated GitHub Stats"
+            git push
+          fi
