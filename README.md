@@ -31,7 +31,7 @@ I'm Shreevatsa Agnihotri – a Data Engineer & Data Scientist in progress!
 - **Databases:** Redshift, Snowflake, PostgreSQL
 
 ## 📈 GitHub Stats
-![GitHub Stats](https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/main/stats.svg)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shreevatsa123&count_private=true&show_icons=true&theme=dark&include_all_commits=true&token=${{ secrets.GH_PAT }})
 
 
 
