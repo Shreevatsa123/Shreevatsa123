@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 # Hi there! 👋
-I'm Shreevatsa Agnihotri – a Data Engineer & Data Scientist in progress!!!
+I'm Shreevatsa Agnihotri – a Data Engineer & Data Scientist in progress!
 
 <!--## 🚀 About Me
 - 🔭 I’m currently working on data pipelines and real-time analytics.
