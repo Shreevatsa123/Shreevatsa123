@@ -27,7 +27,7 @@ I'm Shreevatsa Agnihotri – a Data Engineer & Data Scientist in progress!
 ## 💻 Skills
 - **Languages:** Python, SQL, C++
 - **Cloud:** AWS, Azure
-- **Tools:** Databricks, dbt, Spark , Airflow
+- **Tools:** Databricks, dbt, Spark, Airflow, Docker
 - **Databases:** Redshift, Snowflake, PostgreSQL
 
 ## 📈 GitHub Stats
