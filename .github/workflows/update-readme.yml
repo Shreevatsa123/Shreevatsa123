@@ -1,41 +1,30 @@
-name: Update GitHub Readme Stats
-
+name: Metrics
 on:
-  schedule:
-    - cron: "30 0 * * *"  # Runs every day
-  workflow_dispatch:  # Allows manual execution
-
-permissions:  
-  contents: write  # 👈 This allows the bot to commit changes
+  # Schedule updates (00:30 UTC)
+  schedule: [{cron: "30 0 * * *"}]
+  # Lines below let you run it manually
+  workflow_dispatch:
+  push: {branches: ["main"]}
 
 jobs:
-  update-readme:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: lowlighter/metrics@latest
         with:
-          persist-credentials: false  # 👈 Prevents GitHub Actions from using default credentials
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Configure Git Credentials
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Fetch GitHub Stats
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=Shreevatsa123&count_private=true&show_icons=true&theme=dark&include_all_commits=true"
-
-      - name: Commit and Push Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git add stats.svg
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Updated GitHub Stats"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Shreevatsa123/Shreevatsa123.git HEAD:main
-          fi
+          # Options
+          user: Shreevatsa123
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/New_York
+          
+          # This enables private stats counting
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Output file name
+          filename: stats.svg
