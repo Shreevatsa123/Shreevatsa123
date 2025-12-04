@@ -9,7 +9,7 @@ I'm Shreevatsa Agnihotri – a Data Engineer & Data Scientist in progress!!
 
 ## 📈 GitHub Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shreevatsa123&show_icons=true&theme=dark&hide_border=true" alt="Shreevatsa123's GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/main/stats.svg" alt="Shreevatsa123's GitHub Stats" />
 </p>
 
 <picture>
