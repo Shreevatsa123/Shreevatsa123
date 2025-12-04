@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Schedule updates (00:30 UTC)
   schedule: [{cron: "30 0 * * *"}]
-  # Lines below let you run it manually
   workflow_dispatch:
   push: {branches: ["main"]}
 
@@ -14,17 +12,17 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Options
+          # User & Template
           user: Shreevatsa123
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
           
-          # This enables private stats counting
+          # Force it to push to MAIN branch
+          committer_branch: main
           committer_token: ${{ secrets.METRICS_TOKEN }}
           
-          # Output file name
-          filename: stats.svg
+          # NEW FILENAME to break the cache
+          filename: metrics.svg
