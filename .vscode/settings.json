@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "Shreevatsa",
+    "PySpark",
+    "Databricks",
+    "Snowflake"
+  ],
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.renderIndentGuides": true,
+  "files.eol": "\n"
+}
