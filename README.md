@@ -7,11 +7,6 @@ I'm Shreevatsa Agnihotri – a Data Engineer & Data Scientist in progress!!
 - **Tools:** Databricks, dbt, Spark, Airflow, Docker
 - **Databases:** Redshift, Snowflake, PostgreSQL, MySQL, SQLlite
 
-## 📈 GitHub Stats
-<p align="left">
-  <img src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/main/metrics.svg" alt="Shreevatsa123's GitHub Stats" />
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
