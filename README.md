@@ -1,14 +1,9 @@
 # Hi, I’m Shreevatsa 👋
 
-I like working with data from the moment it’s messy
-to the point where it starts answering real questions.
-
-I enjoy understanding *what the data is really saying*,
-how it was generated, and how to turn it into systems
+I like working with data from the moment it’s messy to the point where it starts answering real questions.
+I enjoy understanding *what the data is really saying*,how it was generated, and how to turn it into systems
 and models that are both useful and trustworthy.
-
-I learn best by building things end-to-end —
-from raw data and pipelines to analysis and insights.
+I learn best by building things end-to-end from raw data and pipelines to analysis and insights.
 
 ---
 
