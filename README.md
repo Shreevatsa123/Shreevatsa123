@@ -2,9 +2,6 @@
 <h3 align="left">Data Scientist | ML Engineer | Data Engineer</h3>
 
 <p align="left">
-  <a href="https://github.com/Shreevatsa123/Shreevatsa123">
-    <img src="https://komarev.com/ghpvc/?username=Shreevatsa123&color=blue" alt="page views" />
-  </a>
   <a href="https://www.linkedin.com/in/shreevatsa-agnihotri-787aab1b6/">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white">
   </a>
