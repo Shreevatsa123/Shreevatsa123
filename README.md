@@ -1,55 +1,74 @@
-# Hi, I’m Shreevatsa 👋
+<h1 align="left" id="title">:wave: Hi, I’m Shreevatsa!</h1>
+<h3 align="left">Data Scientist | ML Engineer | Data Pipelines</h3>
 
-I like working with data from the moment it’s messy to the point where it starts answering real questions.
-I enjoy understanding *what the data is really saying*,how it was generated, and how to turn it into systems
-and models that are both useful and trustworthy.
-I learn best by building things end-to-end from raw data and pipelines to analysis and insights.
+<p align="left">
+  <a href="https://github.com/Shreevatsa123/Shreevatsa123">
+    <img src="https://komarev.com/ghpvc/?username=Shreevatsa123&color=blue" alt="page views" />
+  </a>
+  <a href="https://www.linkedin.com/in/shreevatsa-agnihotri-787aab1b6/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white">
+  </a>
+</p>
 
----
+<a href="#title">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shreevatsa123&show_icons=true&theme=transparent" alt="Shreevatsa's Stats" align="right" width="400" />
+</a>
 
-### 🧠 What I’m curious about
-• Exploring patterns and signals in real-world data  
-• Building data pipelines that support meaningful analysis  
-• Using data science to inform decisions, not just dashboards  
-• Applying ML thoughtfully, not blindly  
+- :brain: &nbsp;I’m curious about **exploring patterns** and **signals in real-world data**
+- :seedling: &nbsp;I enjoy building **data pipelines** that support meaningful analysis
+- :speech_balloon: &nbsp;I like to talk about **interpretable models** and **clean data workflows**
+- :computer: &nbsp;Connect with me on **[LinkedIn](https://www.linkedin.com/in/shreevatsa-agnihotri-787aab1b6/)**
 
----
+<br>
 
-### 🔬 How I like to work with data
-• Start close to the source and question assumptions  
-• Spend time understanding distributions and edge cases  
-• Prefer simple, interpretable models when possible  
-• Care about reproducibility and clean data workflows  
+<h2 align="left" id="tech">Tools I Reach For</h2>
 
----
+> Languages, platforms, and databases I use to turn messy data into insights.
 
-### 🛠 Tools I reach for
-• **Languages:** Python, SQL  
-• **Data & ML:** Pandas, PySpark, Spark ML  
-• **Orchestration:** Airflow  
-• **Platforms:** Databricks  
-• **Cloud:** AWS, Azure  
-• **Databases:** PostgreSQL, Snowflake, Redshift  
+<table>
+  <tr>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="SQL" />
+      <br>SQL
+    </td>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas" />
+      <br>Pandas
+    </td>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg" width="48" height="48" alt="Spark" />
+      <br>PySpark
+    </td>
+    <td align="center" width="96">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" width="48" height="48" alt="Airflow" />
+      <br>Airflow
+    </td>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="48" height="48" alt="AWS" />
+      <br>AWS
+    </td>
+    <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="48" height="48" alt="Azure" />
+      <br>Azure
+    </td>
+  </tr>
+</table>
 
-Tools matter less than asking the right questions.
-
----
-
-### 🌿 Outside of work
-• I enjoy cooking and experimenting with flavors  
-• I like long walks and thinking away from screens  
-• Sustainability and conscious choices matter to me  
-
----
-
-### 🔗 Find me here
-[LinkedIn](https://www.linkedin.com/in/shreevatsa-agnihotri-787aab1b6/) ·
-[GitHub](https://github.com/Shreevatsa123)
-
----
+<h2 align="left">Contribution Activity</h2>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
 </picture>
+
+---
+
+### :herb: Outside of work
+• I enjoy cooking and experimenting with flavors  
+• I like long walks and thinking away from screens  
+• Sustainability and conscious choices matter to me
