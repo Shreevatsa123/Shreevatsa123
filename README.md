@@ -1,5 +1,5 @@
 <h1 align="left" id="title">:wave: Hi, I’m Shreevatsa!</h1>
-<h3 align="left">Data Scientist | ML Engineer | Data Pipelines</h3>
+<h3 align="left">Data Scientist | ML Engineer | Data Engineer</h3>
 
 <p align="left">
   <a href="https://github.com/Shreevatsa123/Shreevatsa123">
