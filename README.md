@@ -8,7 +8,7 @@
 </p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shreevatsa123&theme=algolia&show_icons=true&count_private=true&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20&include_all_commits=true&rank_icon=percentile" alt="Shreevatsa's GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/master/profile-summary-card-output/dark/0-profile-details.svg" alt="Shreevatsa's GitHub Stats" />
 </div>
 
 ---
@@ -45,10 +45,7 @@ I find the most fulfillment in the "build and break" phase of a project—experi
 ---
 
 ### 🎨 Personal Interests
-Beyond my technical work, I stay active through several creative outlets:
-* **The Kitchen Laboratory:** I enjoy the chemistry of cooking, often spending my free time iterating on recipes and exploring new flavor profiles.
-* **Artistic Growth:** I maintain a regular sketching and doodling habit, enjoying the discipline of improving my visual work day by day.
-* **Broadening Perspectives:** I am an avid reader of books that offer fresh viewpoints or challenge my existing understanding of the world.
+Cooking, sketching, and reading—mostly as ways to slow down and reset outside of work.
 
 ---
 
