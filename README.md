@@ -1,15 +1,15 @@
 <h1 align="left" id="title">:wave: Hi, I’m Shreevatsa Agnihotri!</h1>
 <h3 align="left">MS in Data Science Student @ UMD | Former Associate Data Engineer @ Shell</h3>
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/shreevatsa-agnihotri-787aab1b6/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-</p>
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/master/profile-summary-card-output/dark/0-profile-details.svg" alt="Shreevatsa's GitHub Stats" />
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
@@ -58,14 +58,6 @@ Cooking, sketching, and reading—mostly as ways to slow down and reset outside 
 
 ---
 
-### 🐍 Contribution Activity
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
-</picture>
-
----
 <p align="center">
   <i>Exploring the intersection of data, creativity, and continuous learning.</i>
 </p>
