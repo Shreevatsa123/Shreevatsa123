@@ -12,6 +12,7 @@
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+
 ---
 
 ### 🔍 Profile Summary
