@@ -1,7 +1,8 @@
 name: GitHub-Profile-Summary-Cards
 on:
-  schedule: # Runs every 24 hours
-    - cron: "0 1 * * *"
+  schedule:
+    # This will now run at 06:00 UTC every day to avoid clashing with your 00:00 snake workflow
+    - cron: "0 6 * * *" 
   workflow_dispatch:
 jobs:
   build:
@@ -11,7 +12,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - uses: vn7n24f1tk/github-profile-summary-cards@release
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
