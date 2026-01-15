@@ -1,5 +1,5 @@
 <h1 align="left" id="title">:wave: Hi, I’m Shreevatsa Agnihotri!</h1>
-<h3 align="left">Data Scientist | Data Engineer | ML Engineer </h3>
+<h3 align="left">Data Scientist | Data Engineer | ML Engineer </h3>  
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Shreevatsa123/Shreevatsa123/master/profile-summary-card-output/dark/0-profile-details.svg" alt="Shreevatsa's GitHub Stats" />
