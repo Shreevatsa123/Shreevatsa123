@@ -61,8 +61,3 @@ Cooking, sketching, and reading—mostly as ways to slow down and reset outside 
   </a>
 </p>
 
----
-
-<p align="center">
-  <i>Exploring the intersection of data, creativity, and continuous learning.</i>
-</p>
