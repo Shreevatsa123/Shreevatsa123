@@ -1,4 +1,4 @@
-<h1 align="left" id="title">:wave: Hi, I’m Shreevatsa Agnihotri!</h1>
+<h1 align="left" id="title">:wave: Hi, I’m Shreevatsa Agnihotri!</h1>             
 <h3 align="left">Data Scientist | Data Engineer | ML Engineer </h3>     
 
 <div align="center">
