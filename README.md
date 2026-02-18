@@ -13,7 +13,7 @@
   </picture>
 </div>
 
----
+---           
 
 ### 🔍 Profile Summary
 Currently, I am expanding my technical horizons through an **MS in Data Science at the University of Maryland**. My professional foundation was built as an **Associate Data Engineer at Shell**, where I developed a passion for the intricate process of transforming raw, complex data into meaningful insights.
